@@ -3,10 +3,17 @@
   "version": "1.0.0",
   "description": "Testing node",
   "main": "app.js",
-  "type":"module",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon --env-file=.env server.js"
   },
   "author": "Me",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "latest": "^0.2.0",
+    "n": "^10.1.0"
+  }
 }
